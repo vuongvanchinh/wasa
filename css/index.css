@@ -637,11 +637,14 @@
   display: flex;
   align-items: center;
   padding: 0 5rem;
-  height: 80px;
+  height: 65px;
 }
 .header__main .logo {
   padding: 1rem 0;
   height: 100%;
+}
+.header__main .logo img {
+  width: 150px;
 }
 .header__main .search {
   flex: 1;

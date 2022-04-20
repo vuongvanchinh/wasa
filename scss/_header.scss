@@ -17,10 +17,13 @@ $nav-front-size: 1rem;
     display: flex;
     align-items: center;
     padding: 0 5rem;
-    height: 80px;
+    height: 65px;
     .logo {
       padding: 1rem 0;
       height: 100%;
+      img {
+        width: 150px;
+      }
     }
     .search {
       flex: 1;
