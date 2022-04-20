@@ -1,0 +1,50 @@
+.subcribe-section {
+    background-image: var(--bg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h3 {
+        font-size: 1.125rem !important;
+    }
+    .getintouch {
+        font-size: 64px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 1rem;
+
+        @include mobile {
+            font-size: 0.95rem;
+        }
+    }
+}
+.register-form {
+    border: solid $border-color;
+    border-radius: 5px;
+
+    .register {
+        width: 100%;
+        outline: none;
+        border: none;
+    }
+}
+
+.subcribe-modal {
+    .btn-secondary {
+        color: #fff;
+        background-color: #6c757d !important;
+        border-color: #6c757d;
+    }
+    .register-form {
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+    button {
+        padding-top: 0.25rem !important;
+        padding-bottom: 0.25rem !important;
+    }
+    .btn-secondary:hover {
+        background-color: rgba(108, 117, 125, 0.8) !important;
+    }
+}

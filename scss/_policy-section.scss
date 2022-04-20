@@ -1,0 +1,25 @@
+.policy-card {
+    img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 2rem;
+    }
+    &__info {
+        font-size: $sm-text;
+        font-weight: 600;
+    }
+    &__info {
+        h3 {
+            color: rgba($color-09, 0.7) !important;
+            font-size: 0.875rem;
+        }
+        p {
+            font-size: 0.8rem;
+            color: rgba($color-09, 0.6);
+        }
+    }
+    @include mobile {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
